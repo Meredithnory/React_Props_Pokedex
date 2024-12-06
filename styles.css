@@ -10,13 +10,15 @@ h1 {
 }
 .containerbox {
     display: grid;
-   grid-template-columns: 1fr 1fr 1fr 1fr;
-   gap: 70px;
-   column-gap: 151px;
-   row-gap: 44px;
-   padding: 20px 60px;
-   
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 70px;
+    column-gap: 50px;
+    row-gap: 44px;
+    padding: 20px 60px;
+    width: 1000px;
+    margin: auto;
 }
+
 .pokecard {
     background-color: rgb(211 211 211);
     display: flex;
